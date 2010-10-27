@@ -1,21 +1,24 @@
 require 'rexml/document'
+require 'net/https'
+require 'uri'
 
 class Exetel
 
   DATA_URL = "https://www.exetel.com.au/members/usagemeter_xml.php?{USERNAME},{PASSWORD}"
 
-  def initialize(username, password)
-    @username = username
-    @password = password
-    # TODO: Just grab it now.
-  end
-
-  def initialize(file_name)
-    if !File.exists?(file_name)
-      puts "File #{file_name} does not exist. Exiting..."
-      exit 1
+  # Accept either a username and password or a file name.
+  def initialize(user_or_file, password = nil)
+    if password.nil?
+      if !File.exists?(user_or_file)
+        puts "File #{user_or_file} does not exist. Exiting..."
+        exit 1
+      end
+      data = File.read(user_or_file)
+    else
+      url = DATA_URL.sub('{USERNAME}', user_or_file).sub('{PASSWORD}', password)
+      data = fetch(url)
     end
-    data = File.read(file_name)
+    puts data
     parse(data)
   end
 
@@ -28,6 +31,16 @@ class Exetel
   end
 
   private
+
+  def fetch(url)
+    uri = URI.parse(url)
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = true
+    http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+    request = Net::HTTP::Get.new(uri.request_uri)
+    response = http.request(request)
+    return response.body
+  end
 
   def parse(data)
     @doc = REXML::Document.new(data).elements['Response']
