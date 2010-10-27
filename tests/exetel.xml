@@ -1,0 +1,363 @@
+
+<Response>
+  <ServiceNumber>0255550050</ServiceNumber>
+  <ContractDetails>
+    <ContractStartDate>2008-07-16</ContractStartDate>
+    <ContractPeriod>6 Months</ContractPeriod>
+    <ContractEndDate>2009-01-16</ContractEndDate>
+  </ContractDetails>
+
+  <PlanDetails>
+    <PlanName>TL-C2</PlanName>
+    <LineSpeed>36000</LineSpeed>
+    <PeakTimeDownloadInMB>36000</PeakTimeDownloadInMB>
+    <OffpeakTimeDownloadInMB></OffpeakTimeDownloadInMB>
+    <PeakShaping>YES</PeakShaping>
+    <OffpeakShaping>YES</OffpeakShaping>
+
+    <PlanPrice>$55.00</PlanPrice>
+    <ExtraDownloadPerGB>$0.50</ExtraDownloadPerGB>
+  </PlanDetails>
+  <IPAddress>115.70.117.254</IPAddress>
+  <CurrentMonthUsage>
+    <PeakDownload>31768.18</PeakDownload>
+    <PeakUpload>18687.14</PeakUpload>
+
+    <OffpeakDownload>23307.4</OffpeakDownload>
+    <OffpeakUpload>28486</OffpeakUpload>
+    <UpdateDatetime>2010-10-27 21:51:41 AEDST</UpdateDatetime>
+  </CurrentMonthUsage>
+   <DailyUsage>
+     <Daily>
+       <UsageDate>2010-10-01</UsageDate>
+
+       <PeakDownload>641.6500</PeakDownload>
+       <PeakUpload>546.0700</PeakUpload>
+       <OffpeakDownload>136.3400</OffpeakDownload>
+       <OffpeakUpload>1536.9200</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-02</UsageDate>
+
+       <PeakDownload>803.1600</PeakDownload>
+       <PeakUpload>662.2400</PeakUpload>
+       <OffpeakDownload>389.5300</OffpeakDownload>
+       <OffpeakUpload>303.6200</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-03</UsageDate>
+
+       <PeakDownload>398.2300</PeakDownload>
+       <PeakUpload>1410.1100</PeakUpload>
+       <OffpeakDownload>1310.3400</OffpeakDownload>
+       <OffpeakUpload>1840.7800</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-04</UsageDate>
+
+       <PeakDownload>1396.8700</PeakDownload>
+       <PeakUpload>2016.6800</PeakUpload>
+       <OffpeakDownload>1214.8400</OffpeakDownload>
+       <OffpeakUpload>1880.0200</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-05</UsageDate>
+
+       <PeakDownload>327.6200</PeakDownload>
+       <PeakUpload>497.6600</PeakUpload>
+       <OffpeakDownload>503.2700</OffpeakDownload>
+       <OffpeakUpload>1907.0000</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-06</UsageDate>
+
+       <PeakDownload>157.7300</PeakDownload>
+       <PeakUpload>571.4600</PeakUpload>
+       <OffpeakDownload>408.5300</OffpeakDownload>
+       <OffpeakUpload>1126.7700</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-07</UsageDate>
+
+       <PeakDownload>2092.9200</PeakDownload>
+       <PeakUpload>789.0800</PeakUpload>
+       <OffpeakDownload>781.1400</OffpeakDownload>
+       <OffpeakUpload>1304.2300</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-08</UsageDate>
+
+       <PeakDownload>237.2200</PeakDownload>
+       <PeakUpload>486.1700</PeakUpload>
+       <OffpeakDownload>490.1700</OffpeakDownload>
+       <OffpeakUpload>1306.0600</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-09</UsageDate>
+
+       <PeakDownload>111.6800</PeakDownload>
+       <PeakUpload>371.8000</PeakUpload>
+       <OffpeakDownload>391.2600</OffpeakDownload>
+       <OffpeakUpload>1523.5200</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-10</UsageDate>
+
+       <PeakDownload>1356.7200</PeakDownload>
+       <PeakUpload>1658.0400</PeakUpload>
+       <OffpeakDownload>1031.3200</OffpeakDownload>
+       <OffpeakUpload>236.8700</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-11</UsageDate>
+
+       <PeakDownload>1867.8700</PeakDownload>
+       <PeakUpload>505.3600</PeakUpload>
+       <OffpeakDownload>1659.6500</OffpeakDownload>
+       <OffpeakUpload>1243.0700</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-12</UsageDate>
+
+       <PeakDownload>4297.7600</PeakDownload>
+       <PeakUpload>688.3400</PeakUpload>
+       <OffpeakDownload>406.4500</OffpeakDownload>
+       <OffpeakUpload>844.1100</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-13</UsageDate>
+
+       <PeakDownload>1217.5400</PeakDownload>
+       <PeakUpload>993.0700</PeakUpload>
+       <OffpeakDownload>3266.1500</OffpeakDownload>
+       <OffpeakUpload>661.4000</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-14</UsageDate>
+
+       <PeakDownload>2214.9200</PeakDownload>
+       <PeakUpload>634.4400</PeakUpload>
+       <OffpeakDownload>1610.6400</OffpeakDownload>
+       <OffpeakUpload>1221.3800</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-15</UsageDate>
+
+       <PeakDownload>225.2400</PeakDownload>
+       <PeakUpload>151.0000</PeakUpload>
+       <OffpeakDownload>1350.8600</OffpeakDownload>
+       <OffpeakUpload>904.1700</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-16</UsageDate>
+
+       <PeakDownload>207.2800</PeakDownload>
+       <PeakUpload>233.7500</PeakUpload>
+       <OffpeakDownload>105.3500</OffpeakDownload>
+       <OffpeakUpload>276.6600</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-17</UsageDate>
+
+       <PeakDownload>433.8100</PeakDownload>
+       <PeakUpload>779.4300</PeakUpload>
+       <OffpeakDownload>1220.8900</OffpeakDownload>
+       <OffpeakUpload>884.5300</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-18</UsageDate>
+
+       <PeakDownload>287.4000</PeakDownload>
+       <PeakUpload>869.0500</PeakUpload>
+       <OffpeakDownload>203.5100</OffpeakDownload>
+       <OffpeakUpload>491.4900</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-19</UsageDate>
+
+       <PeakDownload>1054.2900</PeakDownload>
+       <PeakUpload>327.0000</PeakUpload>
+       <OffpeakDownload>298.0100</OffpeakDownload>
+       <OffpeakUpload>1040.7400</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-20</UsageDate>
+
+       <PeakDownload>1621.9400</PeakDownload>
+       <PeakUpload>940.9200</PeakUpload>
+       <OffpeakDownload>102.8000</OffpeakDownload>
+       <OffpeakUpload>682.3400</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-21</UsageDate>
+
+       <PeakDownload>827.1700</PeakDownload>
+       <PeakUpload>584.8100</PeakUpload>
+       <OffpeakDownload>967.0300</OffpeakDownload>
+       <OffpeakUpload>312.3700</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-22</UsageDate>
+
+       <PeakDownload>1039.9100</PeakDownload>
+       <PeakUpload>226.8500</PeakUpload>
+       <OffpeakDownload>1407.0400</OffpeakDownload>
+       <OffpeakUpload>975.3100</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-23</UsageDate>
+
+       <PeakDownload>1619.2200</PeakDownload>
+       <PeakUpload>185.9300</PeakUpload>
+       <OffpeakDownload>442.5500</OffpeakDownload>
+       <OffpeakUpload>1440.3300</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-24</UsageDate>
+
+       <PeakDownload>2854.3400</PeakDownload>
+       <PeakUpload>1059.9400</PeakUpload>
+       <OffpeakDownload>1245.5600</OffpeakDownload>
+       <OffpeakUpload>1696.3900</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-25</UsageDate>
+
+       <PeakDownload>1170.9300</PeakDownload>
+       <PeakUpload>575.9600</PeakUpload>
+       <OffpeakDownload>708.3000</OffpeakDownload>
+       <OffpeakUpload>791.7900</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-26</UsageDate>
+
+       <PeakDownload>1849.0900</PeakDownload>
+       <PeakUpload>476.7300</PeakUpload>
+       <OffpeakDownload>622.0500</OffpeakDownload>
+       <OffpeakUpload>795.9500</OffpeakUpload>
+     </Daily>
+     <Daily>
+       <UsageDate>2010-10-27</UsageDate>
+
+       <PeakDownload>1455.6700</PeakDownload>
+       <PeakUpload>445.2500</PeakUpload>
+       <OffpeakDownload>1033.8200</OffpeakDownload>
+       <OffpeakUpload>1258.1800</OffpeakUpload>
+     </Daily>
+   </DailyUsage>
+  <MonthlyUsage>
+
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>10</UsageMonth>
+      <PeakDownload>31768.18</PeakDownload>
+      <PeakUpload>18687.14</PeakUpload>
+      <OffpeakDownload>23307.4</OffpeakDownload>
+
+      <OffpeakUpload>28486</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>09</UsageMonth>
+      <PeakDownload>21442.77</PeakDownload>
+      <PeakUpload>31492.11</PeakUpload>
+
+      <OffpeakDownload>24511.85</OffpeakDownload>
+      <OffpeakUpload>36973.73</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>08</UsageMonth>
+      <PeakDownload>33242.79</PeakDownload>
+
+      <PeakUpload>32581.19</PeakUpload>
+      <OffpeakDownload>31579.95</OffpeakDownload>
+      <OffpeakUpload>45346.85</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>07</UsageMonth>
+
+      <PeakDownload>30693.2</PeakDownload>
+      <PeakUpload>16178.68</PeakUpload>
+      <OffpeakDownload>30109.51</OffpeakDownload>
+      <OffpeakUpload>23276.75</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+
+      <UsageMonth>06</UsageMonth>
+      <PeakDownload>26927.01</PeakDownload>
+      <PeakUpload>15400.67</PeakUpload>
+      <OffpeakDownload>31514.52</OffpeakDownload>
+      <OffpeakUpload>24426.16</OffpeakUpload>
+    </Monthly>
+
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>05</UsageMonth>
+      <PeakDownload>25101.52</PeakDownload>
+      <PeakUpload>10413.9</PeakUpload>
+      <OffpeakDownload>21990.37</OffpeakDownload>
+
+      <OffpeakUpload>11969.88</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>04</UsageMonth>
+      <PeakDownload>27945.88</PeakDownload>
+      <PeakUpload>10966.41</PeakUpload>
+
+      <OffpeakDownload>23770.32</OffpeakDownload>
+      <OffpeakUpload>15822.26</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>03</UsageMonth>
+      <PeakDownload>19364.26</PeakDownload>
+
+      <PeakUpload>14034.89</PeakUpload>
+      <OffpeakDownload>17859.6</OffpeakDownload>
+      <OffpeakUpload>20979.74</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+      <UsageMonth>02</UsageMonth>
+
+      <PeakDownload>17055.61</PeakDownload>
+      <PeakUpload>14355.44</PeakUpload>
+      <OffpeakDownload>12451.94</OffpeakDownload>
+      <OffpeakUpload>20104.63</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2010</UsageYear>
+
+      <UsageMonth>01</UsageMonth>
+      <PeakDownload>21891.52</PeakDownload>
+      <PeakUpload>20182.13</PeakUpload>
+      <OffpeakDownload>21275.22</OffpeakDownload>
+      <OffpeakUpload>27715.5</OffpeakUpload>
+    </Monthly>
+
+    <Monthly>
+      <UsageYear>2009</UsageYear>
+      <UsageMonth>12</UsageMonth>
+      <PeakDownload>19598.22</PeakDownload>
+      <PeakUpload>21223.46</PeakUpload>
+      <OffpeakDownload>34650.41</OffpeakDownload>
+
+      <OffpeakUpload>27130.6</OffpeakUpload>
+    </Monthly>
+    <Monthly>
+      <UsageYear>2009</UsageYear>
+      <UsageMonth>11</UsageMonth>
+      <PeakDownload>21705.47</PeakDownload>
+      <PeakUpload>19023.89</PeakUpload>
+
+      <OffpeakDownload>41345.9</OffpeakDownload>
+      <OffpeakUpload>23619.05</OffpeakUpload>
+    </Monthly>
+  </MonthlyUsage>
+   <EmailDetails>  
+   </EmailDetails>
+</Response>
