@@ -18,7 +18,6 @@ class Exetel
       url = DATA_URL.sub('{USERNAME}', user_or_file).sub('{PASSWORD}', password)
       data = fetch(url)
     end
-    puts data
     parse(data)
   end
 
