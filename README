@@ -1,0 +1,36 @@
+Exetel usage library
+
+== DESCRIPTION:
+
+You can use this library to interact with internet usage data from the Exetel
+ISP (http://exetel.com.au).
+
+You can obtain data for peak and off-peak downloads and limits as well as the
+monthly progress percentage.
+
+Usage data is repored in megabytes.
+
+== USAGE:
+
+exetel = Exetel.new('username', 'password')
+
+exetel.peak_limit
+=> 36000.0
+
+exetel.peak_usage
+=> 5549.24
+
+exetel.peak_percentage
+=> 15.4145555555556
+
+exetel.offpeak_usage
+=> 6098.7
+
+# Example of monthly progress:
+# (Note that we want the first day of the month to be 0% and the last day to
+# *not* be 100%.)
+
+Date.today.to_s
+=> "2010-11-07"
+exetel.month_percentage
+=> 20.0
