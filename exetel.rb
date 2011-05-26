@@ -62,10 +62,20 @@ class Exetel
     @doc.elements['CurrentMonthUsage'].elements['UpdateDatetime'].text
   end
 
-  def month_percentage
-    d = Date.parse(reported_date)
-    days_in_month = Date.new(d.year, d.month, -1).day
-    (d.day - 1.0) / days_in_month * 100
+  def start_date
+    @doc.elements['DailyUsage'].elements['Daily'].elements['UsageDate'].text
+  end
+
+  def month_percentage(rdate = nil, sdate = nil)
+    rdate ||= reported_date
+    sdate ||= start_date
+    rdate = Date.parse(rdate)
+    sdate = Date.parse(sdate)
+    days_in_current_month = Date.new(rdate.year, rdate.month, -1).day
+    days_in_previous_month = Date.new(rdate.year, rdate.month-1, -1).day
+    total_days = (rdate.day >= sdate.day ) ? days_in_current_month : days_in_previous_month
+    current_days = (rdate.day >= sdate.day ) ? rdate.day - sdate.day : rdate.day + (days_in_previous_month - sdate.day) + 1
+    (current_days) * 100.0 / total_days
   end
 
   private

@@ -30,7 +30,10 @@ class ExetelTest < Test::Unit::TestCase
   end
   
   def test_month_percentage
-    assert_equal ((27 - 1.0) / 31 * 100), @exetel.month_percentage
+    assert_equal  (26.0 / 31 * 100), @exetel.month_percentage()
+    assert_equal  (1.0 / 30 * 100), @exetel.month_percentage('2011-04-29', '2011-04-28')
+    assert_equal (29.0 / 30 * 100), @exetel.month_percentage('2011-05-26', '2011-04-28')
+    assert_equal (3.0 / 31 * 100), @exetel.month_percentage('2011-05-31', '2011-05-28')
   end
 
 end
